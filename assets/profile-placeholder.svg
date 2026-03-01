@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Profile photo placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#11213d" />
+      <stop offset="55%" stop-color="#0b1324" />
+      <stop offset="100%" stop-color="#1a0f1d" />
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00d4ff" />
+      <stop offset="100%" stop-color="#ff6b2d" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg)" />
+
+  <g opacity="0.4">
+    <circle cx="170" cy="180" r="140" fill="#00d4ff" />
+    <circle cx="680" cy="250" r="180" fill="#ff6b2d" />
+    <circle cx="410" cy="860" r="200" fill="#d6ff6b" />
+  </g>
+
+  <g fill="none" stroke="url(#stroke)" stroke-width="10" opacity="0.9">
+    <ellipse cx="400" cy="390" rx="170" ry="180" />
+    <path d="M240 690c34-80 108-130 160-130s126 50 160 130" />
+  </g>
+
+  <text
+    x="400"
+    y="930"
+    font-family="Space Grotesk, Segoe UI, sans-serif"
+    font-size="46"
+    font-weight="700"
+    text-anchor="middle"
+    fill="#f4f7ff"
+    letter-spacing="3"
+  >
+    YOUR PHOTO
+  </text>
+</svg>
